@@ -1,0 +1,39 @@
+{
+  "name": "bau",
+  "data": [
+    {
+      "seriesName": "DMD_TRA-R-AVIDOM",
+      "seriesValues": [
+        [
+          2024,
+          0.0
+        ],
+        [
+          2050,
+          0.0
+        ],
+        [
+          2051,
+          0.0
+        ]
+      ]
+    },
+    {
+      "seriesName": "DMD_TRA-R-AVIINT",
+      "seriesValues": [
+        [
+          2024,
+          0.0
+        ],
+        [
+          2050,
+          0.0
+        ],
+        [
+          2051,
+          0.0
+        ]
+      ]
+    }
+  ]
+}

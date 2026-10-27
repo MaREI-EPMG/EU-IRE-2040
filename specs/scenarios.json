@@ -2,6 +2,9 @@
   {
     "name": "bau",
     "variants": [{ "name": "bau", "specs": null }]
+  },{
+    "name": "bau_nocap",
+    "variants": [{ "name": "bau_nocap", "specs": null }]
   },
   {
     "name": "bau-wem",
