@@ -58,5 +58,18 @@
       { "to": "house-stock", "text": "House stock" }
     ],
     "variant": "underscore"
+  },
+  {
+	  "path": "land-use/*",
+    "links": [
+      { "to": "overview", "text": "Overview" },
+      {
+        "to": "final-energy-consumption",
+        "text": "Final energy consumption"
+      },
+      { "to": "land", "text": "Land" },
+      { "to": "forestry-and-lulucf", "text": "Forestry and LULUCF" }
+    ],
+    "variant": "underscore"
   }
 ]

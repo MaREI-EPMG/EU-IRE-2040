@@ -10,7 +10,10 @@
           "SYS_Cost_Sector",
           "SYS_LumpInv_Sector",
           "SYS_DACS",
-          "SYS_FEC_Fuel"
+          "SYS_FEC_Fuel",
+		  "SYS_Emissions_GHG_Sector",
+		  "SYS_Emissions_GHG_Gas",
+          "SYS_Emissions_GHG_Sector_Cumulative"
         ]
       },
       {
@@ -193,6 +196,24 @@
   },
   {
     "path": "agriculture",
-    "charts": ["AGR_FEC"]
-  }
-]
+    "charts": [
+	  "AGR_FEC",
+	  "AGR_Emissions_GHG",
+      "AGR_Emissions_CH4_Livestock"
+	]
+  },
+  {
+	  "path": "land-use": {
+      "land": [
+        "AFL_Land_Area",
+        "AFL_Cropland_Use",
+        "AFL_Grassland_Use",
+        "AFL_Bioenergy_Crops_Area"
+      ],
+      "forestry-and-lulucf": [
+        "LULUCF_Emissions",
+        "AFL_Forest_Harvest"
+      ]
+      },
+  },
+  ]
