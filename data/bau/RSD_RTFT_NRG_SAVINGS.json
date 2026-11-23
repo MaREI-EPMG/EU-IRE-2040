@@ -5,10 +5,6 @@
       "seriesName": "RSDSH_Apt-G",
       "seriesValues": [
         [
-          2049,
-          0.0
-        ],
-        [
           2050,
           0.0
         ],
@@ -21,10 +17,6 @@
     {
       "seriesName": "RSDSH_Att-G",
       "seriesValues": [
-        [
-          2050,
-          0.0
-        ],
         [
           2051,
           0.0
