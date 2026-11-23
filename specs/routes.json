@@ -10,10 +10,7 @@
           "SYS_Cost_Sector",
           "SYS_LumpInv_Sector",
           "SYS_DACS",
-          "SYS_FEC_Fuel",
-		  "SYS_Emissions_GHG_Sector",
-		  "SYS_Emissions_GHG_Gas",
-          "SYS_Emissions_GHG_Sector_Cumulative"
+          "SYS_FEC_Fuel"
         ]
       },
       {
@@ -50,6 +47,7 @@
       {
         "path": "other",
         "charts": [
+          "SYS_Cost_Type",
           "SYS_Emissions_CO2_Domestic_Cumulative",
           "SYS_Cost_Sector_Cumulative",
           "SYS_LumpInv_Sector_Cumulative",
@@ -75,7 +73,7 @@
       "PWR_Cap-N",
       "PWR_Emissions-CO2",
       "PWR_Gen-ELCC",
-      "PWR_Gen-HETC"
+      "Storages_CAP"
     ]
   },
   {
@@ -168,6 +166,7 @@
       "SRV_FEC",
       "SRV-COM_FEC_WS",
       "SRV-PUB_FEC_WS",
+      "SRV_FEC_COK",
       "SRV_FEC_DCs",
       "SRV-DCs_EH",
       "SRV-DCs_EH_DH-Grid"
@@ -178,42 +177,19 @@
     "charts": [
       "IND_FEC",
       "IND_Emissions-CO2",
-      "IND-TAP_FEC",
-      "IND-ONM_FEC",
-      "IND-TEM_FEC",
-      "IND-WAP_FEC",
-      "IND-OMA_FEC",
-      "IND-RAP_FEC",
-      "IND-EOE_FEC",
-      "IND-CON_FEC",
-      "IND-PX4_FEC",
       "IND-CAF_FEC",
-      "IND-FAB_FEC",
+      "IND-CEM_FEC",
+      "IND-ELC_FEC",
+      "IND-FAP_FEC",
+      "IND-LIM_FEC",
       "IND-MAP_FEC",
-      "IND-NEM_FEC",
-      "IND-MAE_FEC"
+      "IND-OMA_FEC",
+      "IND-ONM_FEC",
+      "IND-WAP_FEC"
     ]
   },
   {
     "path": "agriculture",
-    "charts": [
-	  "AGR_FEC",
-	  "AGR_Emissions_GHG",
-      "AGR_Emissions_CH4_Livestock"
-	]
-  },
-  {
-	  "path": "land-use": {
-      "land": [
-        "AFL_Land_Area",
-        "AFL_Cropland_Use",
-        "AFL_Grassland_Use",
-        "AFL_Bioenergy_Crops_Area"
-      ],
-      "forestry-and-lulucf": [
-        "LULUCF_Emissions",
-        "AFL_Forest_Harvest"
-      ]
-      },
-  },
-  ]
+    "charts": ["AGR_FEC"]
+  }
+]

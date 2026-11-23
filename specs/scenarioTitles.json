@@ -1,4 +1,9 @@
 {
-  "no_mitigation": "No Mitigation",
-  "another_scenario": "Another Scenario"
+  "bau": "BAU",
+  "bau_nocap": "BAU (No Cap)",
+  "bau-wem": "BAU - WEM",
+  "bau-wam-fx": "BAU - WAM (FX)",
+  "mitigation_cb2024-300mt": "Mitigation CB2024 (300 Mt)",
+  "mitigation_cb2024-300mt-wem": "Mitigation CB2024 (300 Mt) - WEM",
+  "mitigation_cb2024-300mt-wam": "Mitigation CB2024 (300 Mt) - WAM"
 }
