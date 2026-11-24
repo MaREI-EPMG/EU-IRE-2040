@@ -137,13 +137,27 @@ def main() -> int:
 
     # 5. Validate every routed chart exists in chartsInfo, data/, and chartsTitles
     routed = iter_route_charts(routes)
+    unique_routed_charts = {c for _, c in routed}
+    scen_chart_counts = {
+        s: sum(1 for c in unique_routed_charts if s in data_scens_by_chart.get(c, set()))
+        for s in spec_scenarios
+    }
+    partial_scenarios = {
+        s for s, cnt in scen_chart_counts.items() if 0 < cnt < len(unique_routed_charts) / 2
+    }
+    for s in sorted(partial_scenarios):
+        warnings.append(
+            f"Scenario '{s}' is a partial benchmark scenario ({scen_chart_counts[s]}/{len(unique_routed_charts)} routed charts present)"
+        )
+
+    full_scenarios = [s for s in spec_scenarios if s not in partial_scenarios]
     for route_path, chart in routed:
         if chart not in charts_info:
             errors.append(f"Routed chart '{chart}' ({route_path}) missing from specs/chartsInfo.json")
         if chart not in data_scens_by_chart:
             errors.append(f"Routed chart '{chart}' ({route_path}) has no JSON files under data/")
         else:
-            missing_scens = [s for s in spec_scenarios if s not in data_scens_by_chart[chart]]
+            missing_scens = [s for s in full_scenarios if s not in data_scens_by_chart[chart]]
             if missing_scens:
                 warnings.append(f"Routed chart '{chart}' ({route_path}) missing in scenarios: {missing_scens}")
         if chart not in charts_titles:

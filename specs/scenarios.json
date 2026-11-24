@@ -25,5 +25,13 @@
   {
     "name": "mitigation_cb2024-300mt-wam",
     "variants": [{ "name": "mitigation_cb2024-300mt-wam", "specs": null }]
+  },
+  {
+    "name": "epa-wem",
+    "variants": [{ "name": "epa-wem", "specs": null }]
+  },
+  {
+    "name": "epa-wam",
+    "variants": [{ "name": "epa-wam", "specs": null }]
   }
 ]
