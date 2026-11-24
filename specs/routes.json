@@ -6,6 +6,7 @@
         "path": "emissions-and-cost",
         "charts": [
           "SYS_Emissions_CO2_Domestic",
+          "SYS_Emissions_CO2_Domestic_Cumulative",
           "SYS_CO2Price",
           "SYS_Cost_Sector",
           "SYS_LumpInv_Sector",

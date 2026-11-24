@@ -5,5 +5,7 @@
   "bau-wam-fx": "BAU - WAM (FX)",
   "mitigation_cb2024-300mt": "Mitigation CB2024 (300 Mt)",
   "mitigation_cb2024-300mt-wem": "Mitigation CB2024 (300 Mt) - WEM",
-  "mitigation_cb2024-300mt-wam": "Mitigation CB2024 (300 Mt) - WAM"
+  "mitigation_cb2024-300mt-wam": "Mitigation CB2024 (300 Mt) - WAM",
+  "epa-wem": "EPA WEM",
+  "epa-wam": "EPA WAM"
 }
